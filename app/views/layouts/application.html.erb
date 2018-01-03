@@ -8,6 +8,11 @@
 </head>
 <body>
 
+<header>
+  <%= link_to "Home", homepage_url %>
+
+  <%= link_to "Log out", logout_path, method: :post %>
+</header>
 <%= yield %>
 
 </body>
